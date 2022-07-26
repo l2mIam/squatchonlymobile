@@ -7,9 +7,9 @@ const RenderProfile = ({ squatch }) => {
       <Card containerStyle={{ padding: 0 }}>
         <Card.Image source={squatch.image}>
           <View style={{ justifyContent: 'center', flex: 1 }}>
-            <Text style={{ color: 'white', textAlign: 'center', fontSize: 20 }}>
+            {/* <Text style={{ color: 'white', textAlign: 'center', fontSize: 20 }}>
               {squatch.name}
-            </Text>
+            </Text> */}
           </View>
         </Card.Image>
         <Text style={{ margin: 20 }}>{`Age: ${squatch.age}\nFavorite Tree: ${squatch.tree}\n${squatch.description}`}</Text>

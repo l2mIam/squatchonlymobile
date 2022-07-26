@@ -1,7 +1,9 @@
 import RenderProfile from "../features/profiles/RenderProfile";
 
-const ProfileScreen = (props) => {
-  return <RenderProfile squatch={props.squatch} />;
+const SquatchProfileScreen = ({ route }) => {
+  const { squatch } = route.params
+
+  return <RenderProfile squatch={squatch} />;
 }
 
-export default ProfileScreen;
+export default SquatchProfileScreen;
