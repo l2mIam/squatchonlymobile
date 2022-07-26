@@ -12,9 +12,7 @@ const RenderProfile = ({ squatch }) => {
             </Text>
           </View>
         </Card.Image>
-        <Text style={{ margin: 20 }}>Age: {squatch.age}</Text>
-        <Text style={{ margin: 20 }}>Favorite Tree: {squatch.tree}</Text>
-        <Text style={{ margin: 20 }}>{squatch.description}</Text>
+        <Text style={{ margin: 20 }}>{`Age: ${squatch.age}\nFavorite Tree: ${squatch.tree}\n${squatch.description}`}</Text>
       </Card>
     )
   }
