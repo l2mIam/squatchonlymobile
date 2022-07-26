@@ -10,11 +10,11 @@ const RenderProfile = ({ squatch }) => {
         <Card.Image
           source={squatch.image}
           style={{
-            height: win.width *2/3
+            height: win.width
           }}
         >
         </Card.Image>
-        <Text style={{ margin: 20 }}>{`Age: ${squatch.age}\nFavorite Tree: ${squatch.tree}\n${squatch.description}`}</Text>
+        <Text style={{ margin: 20, lineHeight: 20 }}>{`Name: ${squatch.name}\nAge: ${squatch.age}\nFavorite Tree: ${squatch.tree}\n${squatch.description}`}</Text>
       </Card>
     )
   }
