@@ -6,7 +6,7 @@ export const SQUATCHES = [
     age: 234,
     likes: ["rocks", "trees", "scissors"],
     tree: "hemlock",
-    description: "Not all humans are bad."
+    description: "Not all humans are bad, but some don't smell right"
   },
   {
     id: 1,

@@ -4,7 +4,7 @@ import { Avatar, ListItem } from "react-native-elements";
 const DirectoryScreen = (props) => {
   const renderDirectoryItem = ({ item: squatch }) => {
     return (
-      <ListItem>
+      <ListItem onPress={() => props.onPress(squatch.id)}>
         <Avatar
           source={squatch.image}
           rounded
